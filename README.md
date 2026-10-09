@@ -10,7 +10,7 @@ A minimalist music player with dark and light themes, playlists, music discovery
 - **Setup.exe** installs Himig and creates shortcuts.
 - **SHA256SUMS.txt** contains checksums for verifying the downloaded files.
 
-Windows 64-bit is supported. Music search and streaming require an internet connection. These builds are unsigned. Himig checks this repository at startup and every six hours. Settings includes a manual update check and an automatic-check preference. When notified, download the new installer or portable EXE from the release page to update.
+Windows 64-bit is supported. Music search and streaming require an internet connection. These builds are unsigned. Himig checks this repository at startup and every six hours. Settings includes a manual update check and an automatic-check preference. Updates download inside Himig with progress, cancellation, retry and checksum verification. After downloading, choose Install update or Show downloaded EXE for a portable build.
 
 Your library and settings are stored locally under `%APPDATA%/Himig`. Use Settings to export a backup before moving to another computer.
 
